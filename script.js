@@ -1,11 +1,13 @@
 const menu = document.querySelector("#mobile-menu");
 const menuLinks = document.querySelector(".navbar_menu");
 const navLogo = document.querySelector("#navbar_logo");
+const nav=document.querySelector(".navbar");
 
 //wyswietlanie menu
 const appears = () => {
     menu.classList.toggle("is-active");
     menuLinks.classList.toggle("active");
+    nav.classList.toggle("active")
 }
 
 menu.addEventListener("click",appears);
