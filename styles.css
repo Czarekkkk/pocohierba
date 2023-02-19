@@ -184,7 +184,7 @@ body{
 .heading{
     background: rgb(0,3,0);
     background: linear-gradient(163deg, rgba(0,3,0,1) 0%, rgba(18,72,10,1) 89%);
-    padding: 250px 0;
+    padding: 150px 0;
 }
 .heading_container{
     display: flex;
