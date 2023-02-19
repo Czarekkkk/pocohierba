@@ -1,0 +1,4 @@
+class="navbar__container"	class="navbar_switch"
+href="#services",id="services-page"	href="#products",id="products-page"	
+class="navbar_btn"	class="navbar_button"	11:01
+href="#sign-up" class="button" id="signup"	href="#buy" class="button" id="buyid" 11:21
