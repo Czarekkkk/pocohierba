@@ -7,14 +7,7 @@ const nav=document.querySelector(".navbar");
 const appears = () => {
     menu.classList.toggle("is-active");
     menuLinks.classList.toggle("active");
-    if(nav.classList.value=="navbar"){
-        nav.classList.toggle("active")
-    }else{
-        setTimeout(() => {
-            nav.classList.toggle("active")
-        }, 500);
-        
-    }
+
 }
 
 menu.addEventListener("click",appears);

@@ -88,11 +88,8 @@
     transition: all 0.3s ease;
 }
 @media screen and (max-width:960px){
-    .navbar{
-        overflow-x:hidden;
-    }
-    .navbar.active{
-        overflow-x:visible;
+    body,html{
+        overflow-x: hidden;
     }
     .navbar_conteiner{
         display: flex;
@@ -190,7 +187,9 @@ body{
 
 .heading{
     background: rgb(0,3,0);
-    background: linear-gradient(163deg, rgba(0,3,0,1) 0%, rgba(18,72,10,1) 89%);
+    background-image: url("assets/ROZMYCIEgradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 150px 0;
 }
 .heading_container{
@@ -207,6 +206,7 @@ body{
     font-size: 100px;
     margin-bottom: 24px;
     color: white;
+    /*text-shadow: -1px -1px 0 ;*/
 }
 .heading_heading span{
     background: rgb(19,168,0);
@@ -217,6 +217,7 @@ body{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; /*wypelnianie tekstu kolorem */
     -moz-text-fill-color: transparent;
+    -webkit-text-stroke: 4px black;
 }
 .heading_opis{
     font-size: 60px;
@@ -268,6 +269,8 @@ body{
     color: white;
     width: 100%;
     margin-inline: 2rem;
+    padding-left: 5%;
+    padding-right:5%;
 }
 .main_content h1{
     font-size: 2rem;
