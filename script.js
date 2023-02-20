@@ -24,14 +24,14 @@ const highlightMenu = () => {
         about.classList.remove("highlight")
         return
     }
-    else if(window.innerWidth > 960 && scrollPosition < 4000){
+    else if(window.innerWidth > 960 && scrollPosition < 3900){
         about.classList.add("highlight")
         home.classList.remove("highlight")
         products.classList.remove("highlight")
         return
     }
   
-    else if(window.innerWidth > 960 && scrollPosition > 4000){
+    else if(window.innerWidth > 960 && scrollPosition < 5000){
         products.classList.add("highlight")
         about.classList.remove("highlight")
         return
