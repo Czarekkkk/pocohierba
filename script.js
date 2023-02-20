@@ -31,7 +31,7 @@ const highlightMenu = () => {
         return
     }
   
-    else if(window.innerWidth > 960 && scrollPosition < 5000){
+    else if(window.innerWidth > 960 && scrollPosition < 4500){
         products.classList.add("highlight")
         about.classList.remove("highlight")
         return
