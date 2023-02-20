@@ -240,6 +240,9 @@ body{
     .heading_heading{
         font-size: 60px;
     }
+    .heading_heading span{
+        -webkit-text-stroke: 2px black;
+    }
     .heading_opis{
         font-size: 40px;
     }
