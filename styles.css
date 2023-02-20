@@ -330,10 +330,9 @@ body{
     width: 100%;
 }
 .main_img_card{
-    width: 557px;
+    width: 500px;
     height: 500px;
     border-radius: 50px;
-
 }
 /* resposywnosc */
 @media screen and (max-width:1100px) {
